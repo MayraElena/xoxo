@@ -22,10 +22,6 @@ const userSchema= new mongoose.Schema({
     telefono : {
         type: String,
         required:true
-    },
-    vestidos:{
-        type: [mongoose.Schema.Types.ObjectId],
-        ref:'Vestidos'
     }
 });
 
